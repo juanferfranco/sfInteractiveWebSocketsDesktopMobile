@@ -5,9 +5,8 @@ function setup() {
     background(220);
 
     // Connect to the WebSocket server
-    //let socketUrl = 'wss://cuddly-memory-7r95p6vgr7hxp4-8080.app.github.dev/:8080';
-    let socketUrl = 'ws://192.168.137.1:8080';
-
+    //let socketUrl = 'ws://192.168.137.1:8080';
+    let socketUrl = 'wss://probable-fiesta-q9q4pjvqq73949w-8080.app.github.dev/:8080';
     socket = new WebSocket(socketUrl);
 
     socket.onopen = () => {
