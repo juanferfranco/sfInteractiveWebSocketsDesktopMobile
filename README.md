@@ -1,1 +1,1 @@
-# Repo para realizar algunos experimentos de cursos usando codespaces
+# Pasos para realizar los experimentos
