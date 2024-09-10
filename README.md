@@ -23,9 +23,24 @@ Los pasos para ejecutar la aplicación son:
 * Ejecutar npm install
 * Ejecutar npm start
 * Leer la url del websocket
+
+![image](https://github.com/user-attachments/assets/a6ad0e38-a74c-4219-970d-ceb4474b5321)
+
+En este caso sería (para este ejemplo, en tu caso serán distintas):
+
+``` js
+wss://probable-fiesta-q9q4pjvqq73949w-8080.app.github.dev/:8080
+``` 
+
 * Detener el servidor
 * Modificar la URL del websocket en cada aplicación: mobile, desktop.
 * npm start
+* En los clientes las aplicaciones web estarían corriendo en (para este ejemplo, en tu caso serán distintas):
+
+``` js
+https://probable-fiesta-q9q4pjvqq73949w-8080.app.github.dev/desktop
+https://probable-fiesta-q9q4pjvqq73949w-8080.app.github.dev/mobile
+```
 
 Las dependecias que se instalarán serán:
 
