@@ -59,3 +59,8 @@ let socketUrl = 'ws://localhost:8080';
 socket = new WebSocket(socketUrl);
 ```
 
+> [!WARNING]  
+> Una vez termines de hacer las pruebas NO OLVIDES detener el servidor
+
+
+
