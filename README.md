@@ -20,9 +20,23 @@ Los pasos para ejecutar la aplicación son:
 * Ejecutar npm start
 * Leer la url del websocket
 * Detener el servidor
-* Modificar la URL del websocket en cada aplicación: mobil, desktop.
+* Modificar la URL del websocket en cada aplicación: mobile, desktop.
 * npm start
+
+Las dependecias que se instalarán serán:
+
+* express
+* ws
 
 ## Sitios web
 
+No olvidar modificar en sketch.js para el sitio desktop y mobile esta parte 
+del código:
+
+``` js
+// Connect to the WebSocket server
+//let socketUrl = 'wss://cuddly-memory-7r95p6vgr7hxp4-8080.app.github.dev/:8080';
+let socketUrl = 'ws://localhost:8080';
+socket = new WebSocket(socketUrl);
+```
 
