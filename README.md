@@ -1,5 +1,11 @@
 # Pasos para realizar los experimentos
 
+## Crear un codespaces:
+
+![codespaces](https://github.com/user-attachments/assets/97d7b532-42c4-4a97-a0d3-b8ff335b0ebe)
+
+
+
 ## Servidores
 
 El proyecto cuenta con dos servidores. Un servidor web y un servidor 
