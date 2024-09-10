@@ -1,0 +1,27 @@
+{
+  "name": "sfinteractivewebsocketsdesktopmobile",
+  "version": "1.0.0",
+  "description": "websockets experiments for interactive systems",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanferfranco/sfInteractiveWebSocketsDesktopMobile.git"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Juan Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanferfranco/sfInteractiveWebSocketsDesktopMobile/issues"
+  },
+  "homepage": "https://github.com/juanferfranco/sfInteractiveWebSocketsDesktopMobile#readme",
+  "dependencies": {
+    "express": "^4.20.0",
+    "ws": "^8.18.0"
+  }
+}
